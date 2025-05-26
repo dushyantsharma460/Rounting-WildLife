@@ -5,21 +5,19 @@ export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
             {/* Hero Section */}
-            <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-20 py-16 shadow-md min-h-[600px] sm:min-h-[700px]">
-                <div className="relative z-10 max-w-screen-xl px-4 pt-10 pb-20 sm:pt-24 sm:pb-28 mx-auto sm:px-6 lg:px-8 flex flex-col-reverse sm:flex-row items-center sm:items-start justify-between">
-                    
-                    {/* Text Content */}
-                    <div className="w-full sm:w-1/2 text-center sm:text-right space-y-6 sm:space-y-8 mt-10 sm:mt-0">
-                        <h2 className="text-3xl sm:text-5xl font-extrabold text-green-700 leading-snug">
+            <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-20 py-16 shadow-md min-h-[600px]">
+                <div className="relative z-10 max-w-screen-xl px-4 pt-10 pb-20 sm:pt-24 sm:pb-28 mx-auto sm:px-6 lg:px-8">
+                    <div className="max-w-xl mt-96 sm:mt-1 space-y-8 text-center sm:text-right sm:ml-auto">
+                        <h2 className="text-4xl sm:text-5xl font-extrabold text-green-700 leading-tight">
                             Join the Cause
-                            <span className="block text-green-900 text-2xl sm:text-4xl">
+                            <span className="hidden sm:block text-green-900 text-4xl">
                                 Help Save Wildlife Today
                             </span>
                         </h2>
 
                         <Link
                             to="/donate"
-                            className="inline-flex items-center justify-center px-6 py-3 text-white font-semibold bg-green-700 rounded-lg hover:bg-green-800 transition duration-300"
+                            className="inline-flex items-center px-6 py-3 text-white font-semibold bg-green-700 rounded-lg hover:bg-green-800 transition duration-300"
                         >
                             <svg
                                 fill="white"
@@ -34,15 +32,15 @@ export default function Home() {
                             <span className="ml-2">Donate Now</span>
                         </Link>
                     </div>
+                </div>
 
-                    {/* Image */}
-                    <div className="w-full sm:w-1/2 flex justify-center sm:justify-start">
-                        <img
-                            src="/Home.png"
-                            alt="Panda Illustration"
-                            className="w-72 sm:w-[28rem] opacity-90"
-                        />
-                    </div>
+                {/* Image on the left — preserved */}
+                <div className="absolute inset-0 flex items-center sm:my-20 sm:pt-1 pt-12 justify-start">
+                    <img
+                        src="/Home.png"
+                        alt="Panda Illustration"
+                        className="w-80 sm:w-[22rem] opacity-90 ms-4 sm:ms-16"
+                    />
                 </div>
             </aside>
 
