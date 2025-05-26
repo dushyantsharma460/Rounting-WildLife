@@ -8,7 +8,7 @@ export default function About() {
                         <img
                             src="/About.png"
                             alt="Panda and Vulture"
-                            className="rounded-xl shadow-xl w-full"
+                            className="rounded-xl shadow-xl w-112"
                         />
                     </div>
 
