@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className="mx-3 w-full max-w-7xl">
             {/* Hero Section */}
-            <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-12 py-4 shadow-md min-h-[600px] sm:min-h-[650px] flex flex-col sm:flex-row items-center">
+            <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-12 py-4 px-10 shadow-md min-h-[600px] sm:min-h-[650px] flex flex-col sm:flex-row items-center">
                 
                 {/* Image on the left */}
                 <div className="flex-shrink-0 ms-4 sm:ms-16 mb-6 sm:mb-0">
