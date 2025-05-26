@@ -25,13 +25,13 @@ export const Github = () => {
                 <p><strong>Following:</strong> {data.following}</p>
                 {data.location && <p><strong>Location:</strong> {data.location}</p>}
                 {data.blog && (
-                    <p>
+                    <p className="break-words max-w-xs mx-auto">
                         <strong>Blog:</strong>{' '}
                         <a
                             href={data.blog.startsWith('http') ? data.blog : `https://${data.blog}`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-green-600 underline"
+                            className="text-green-600 underline break-all"
                         >
                             {data.blog}
                         </a>
