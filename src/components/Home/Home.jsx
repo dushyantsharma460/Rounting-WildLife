@@ -6,7 +6,7 @@ export default function Home() {
         <div className="mx-auto w-full max-w-7xl">
             {/* Hero Section */}
             <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-20 py-4 shadow-md min-h-[600px] sm:min-h-[700px]">
-                <div className="relative z-10 max-w-screen-xl px-4 pt-6 sm:pt-20 pb-16 sm:pb-24 mx-auto sm:px-6 lg:px-8">
+                <div className="relative z-10 max-w-screen-xl px-1 pt-2 sm:pt-10 pb-8 sm:pb-12 mx-auto sm:px-6 lg:px-8">
                     {/* Text block - hidden on mobile */}
                     <div className="hidden sm:block max-w-xl space-y-8 text-right ml-auto">
                         <h2 className="text-4xl sm:text-5xl font-extrabold text-green-700 leading-tight">
