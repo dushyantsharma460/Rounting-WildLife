@@ -13,7 +13,7 @@ export default function Home() {
                         style={{ position: 'relative' }} // added relative position
                     >
                         {/* Image on the left - no extra bg */}
-                        <div className="sm:w-5/12 px-2 sm:px-4" style={{ backgroundColor: '#def7de' }}>
+                        <div className="sm:w-5/12 px-2 sm:px-4">
                             <img
                                 src="/Home.png"
                                 alt="Panda Illustration"
