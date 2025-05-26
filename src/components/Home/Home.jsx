@@ -5,10 +5,10 @@ export default function Home() {
     return (
         <div className="mx-3 w-full max-w-7xl">
             {/* Hero Section */}
-            <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-20 py-4 shadow-md min-h-[600px] sm:min-h-[700px]">
-                <div className="relative z-10 max-w-screen-xl px-1 pt-2 sm:pt-10 pb-8 sm:pb-12 mx-auto sm:px-6 lg:px-8">
+            <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-12 py-2 shadow-md min-h-[600px] sm:min-h-[650px]">
+                <div className="relative z-10 max-w-screen-xl px-2 pt-2 sm:pt-6 pb-6 sm:pb-8 mx-auto sm:px-4 lg:px-6">
                     {/* Text block - hidden on mobile */}
-                    <div className="hidden sm:block max-w-xl space-y-8 text-right ml-auto">
+                    <div className="hidden sm:block max-w-xl space-y-6 text-right ml-auto">
                         <h2 className="text-4xl sm:text-5xl font-extrabold text-green-700 leading-tight">
                             Join the Cause
                             <span className="block text-green-900 text-3xl sm:text-4xl mt-2">
@@ -18,7 +18,7 @@ export default function Home() {
                     </div>
 
                     {/* Donate button - always visible */}
-                    <div className="mt-6 sm:mt-10 text-center sm:text-right sm:ml-auto">
+                    <div className="mt-4 sm:mt-8 text-center sm:text-right sm:ml-auto">
                         <Link
                             to="/donate"
                             className="inline-flex items-center px-6 py-3 text-white font-semibold bg-green-700 rounded-lg hover:bg-green-800 transition duration-300"
