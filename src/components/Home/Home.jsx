@@ -34,7 +34,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="absolute inset-0 flex items-center sm:my-20 sm:pt-1 pt-12 justify-start">
+                <div className="absolute inset-0 flex items-center sm:my-20 sm:pt-1 pt-12 justify-start my-5">
                     <img
                         src="/Home.png"
                         alt="Panda Illustration"
