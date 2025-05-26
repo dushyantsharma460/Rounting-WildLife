@@ -1,20 +1,20 @@
 export default function About() {
     return (
-        <div className="bg-green-50 border-t-4 border-green-300">
-            <div className="container m-auto px-6 text-green-900 md:px-12 xl:px-6">
-                <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12 p-6 rounded-xl border border-green-200 shadow-md bg-white/70 backdrop-blur">
+        <div className="bg-green-50 border-t-4 border-green-300 py-12">
+            <div className="container mx-auto px-6 text-green-900 md:px-12">
+                <div className="flex flex-col md:flex-row items-center gap-10 p-6 rounded-xl border border-green-200 shadow-md bg-white/70 backdrop-blur">
                     {/* Left Image */}
-                    <div className="md:w-5/12 lg:w-5/12">
+                    <div className="md:w-5/12">
                         <img
                             src="/About.png"
                             alt="Panda and Vulture"
-                            className="rounded-xl shadow-xl w-96 ms-12 py-20 sm:ms-0 sm:py-0"
+                            className="w-full max-w-xs mx-auto md:max-w-full rounded-xl shadow-xl"
                         />
                     </div>
 
                     {/* Right Text Content */}
-                    <div className="md:w-7/12 lg:w-6/12">
-                        <h2 className="text-2xl text-green-700 font-extrabold md:text-4xl">
+                    <div className="md:w-7/12">
+                        <h2 className="text-2xl md:text-4xl text-green-700 font-extrabold">
                             Dedicated to Protecting and Caring for Wildlife
                         </h2>
                         <p className="mt-6 text-green-800 leading-relaxed">
