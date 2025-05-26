@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
-        <div className="bg-green-50 border-t-4 border-green-300 min-h-screen">
-            <div className="container mx-auto px-6 md:px-12 xl:px-6 py-12">
+        <div className="bg-green-50 border-t-4 border-green-300">
+            <div className="container mx-auto px-6 md:px-12 xl:px-6">
                 <div className="flex flex-col sm:flex-row items-center gap-8 p-4 sm:p-6 rounded-xl border border-green-200 shadow-md bg-white/70 backdrop-blur">
                     
                     {/* Image on the left */}
@@ -47,7 +47,7 @@ export default function Home() {
                 </div>
 
                 {/* Tagline */}
-                <h1 className="text-center text-2xl sm:text-5xl font-semibold text-green-700 py-12 px-4">
+                <h1 className="text-center text-2xl sm:text-5xl font-semibold text-green-700 py-8 px-4">
                     Compassion for Every Creature
                 </h1>
             </div>
