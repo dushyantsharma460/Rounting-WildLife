@@ -3,15 +3,17 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
-        <div className="bg-green-50 border-t-4 border-green-300">
+        <div className="bg-green-50 border-t-4 border-green-300 min-h-screen">
             <div className="container mx-auto px-6 md:px-12 xl:px-6">
 
                 {/* Outer wrapper with light green background and padding */}
                 <div className="p-4 sm:p-6 bg-green-100 rounded-2xl">
-                    <div className="flex flex-col sm:flex-row items-center gap-8 p-4 sm:p-6 rounded-xl border border-green-200 shadow-md bg-white/70 backdrop-blur">
-                        
+                    <div
+                        className="flex flex-col sm:flex-row items-center gap-8 p-4 sm:p-6 rounded-xl border border-green-200 shadow-md bg-white"
+                        style={{ position: 'relative' }} // added relative position
+                    >
                         {/* Image on the left - no extra bg */}
-                        <div className="sm:w-5/12 px-2 sm:px-4">
+                        <div className="sm:w-5/12 px-2 sm:px-4" style={{ backgroundColor: '#def7de' }}>
                             <img
                                 src="/Home.png"
                                 alt="Panda Illustration"
@@ -20,8 +22,14 @@ export default function Home() {
                         </div>
 
                         {/* Text and Donate button on the right */}
-                        <div className="sm:w-7/12 text-center sm:text-right px-2 sm:px-0">
-                            <h2 className="text-3xl sm:text-5xl font-extrabold text-green-700 leading-tight">
+                        <div
+                            className="sm:w-7/12 text-center sm:text-right px-2 sm:px-0"
+                            style={{ backgroundColor: '#f0fff0', minWidth: '300px' }} // debug bg & min width
+                        >
+                            <h2
+                                className="text-3xl sm:text-5xl font-extrabold text-green-700 leading-tight"
+                                style={{ position: 'relative', zIndex: 10, backgroundColor: 'white' }}
+                            >
                                 Join the Cause
                                 <span className="block text-green-900 text-2xl sm:text-4xl mt-2">
                                     Help Save Wildlife Today
