@@ -7,6 +7,7 @@ export default function Home() {
             {/* Hero Section */}
             <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-20 py-12 shadow-md min-h-[600px] sm:min-h-[700px]">
                 <div className="relative z-10 max-w-screen-xl px-4 pt-6 sm:pt-20 pb-16 sm:pb-24 mx-auto sm:px-6 lg:px-8">
+                    {/* Text block - hidden on mobile */}
                     <div className="hidden sm:block max-w-xl space-y-8 text-right ml-auto">
                         <h2 className="text-4xl sm:text-5xl font-extrabold text-green-700 leading-tight">
                             Join the Cause
@@ -14,7 +15,10 @@ export default function Home() {
                                 Help Save Wildlife Today
                             </span>
                         </h2>
+                    </div>
 
+                    {/* Donate button - always visible */}
+                    <div className="mt-6 sm:mt-10 text-center sm:text-right sm:ml-auto">
                         <Link
                             to="/donate"
                             className="inline-flex items-center px-6 py-3 text-white font-semibold bg-green-700 rounded-lg hover:bg-green-800 transition duration-300"
@@ -34,12 +38,12 @@ export default function Home() {
                     </div>
                 </div>
 
-                {/* Image — left aligned, less space */}
+                {/* Image — left aligned, slightly smaller */}
                 <div className="absolute inset-0 flex items-center justify-start">
                     <img
                         src="/Home.png"
                         alt="Panda Illustration"
-                        className="w-[18rem] sm:w-[28rem] opacity-95 ms-4 sm:ms-16"
+                        className="w-[16rem] sm:w-[24rem] opacity-95 ms-4 sm:ms-16"
                     />
                 </div>
             </aside>
