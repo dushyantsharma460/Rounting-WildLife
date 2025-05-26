@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
-        <div className="mx-auto w-full max-w-7xl">
+        <div className="mx-3 w-full max-w-7xl">
             {/* Hero Section */}
             <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-20 py-4 shadow-md min-h-[600px] sm:min-h-[700px]">
                 <div className="relative z-10 max-w-screen-xl px-1 pt-2 sm:pt-10 pb-8 sm:pb-12 mx-auto sm:px-6 lg:px-8">
@@ -39,7 +39,7 @@ export default function Home() {
                 </div>
 
                 {/* Image — left aligned, slightly smaller */}
-                <div className="absolute inset-0 flex items-center justify-start">
+                <div>
                     <img
                         src="/Home.png"
                         alt="Panda Illustration"
