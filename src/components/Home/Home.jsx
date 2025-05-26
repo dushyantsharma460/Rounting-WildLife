@@ -7,13 +7,15 @@ export default function Home() {
             <div className="container mx-auto px-6 md:px-12 xl:px-6">
                 <div className="flex flex-col sm:flex-row items-center gap-8 p-4 sm:p-6 rounded-xl border border-green-200 shadow-md bg-white/70 backdrop-blur">
                     
-                    {/* Image on the left */}
+                    {/* Image on the left with light green padding */}
                     <div className="sm:w-5/12 px-2 sm:px-4">
-                        <img
-                            src="/Home.png"
-                            alt="Panda Illustration"
-                            className="rounded-xl shadow-xl w-full max-w-md mx-auto"
-                        />
+                        <div className="p-4 bg-green-100 rounded-xl shadow-inner">
+                            <img
+                                src="/Home.png"
+                                alt="Panda Illustration"
+                                className="rounded-lg shadow-xl w-full max-w-md mx-auto"
+                            />
+                        </div>
                     </div>
 
                     {/* Text and Donate button on the right */}
