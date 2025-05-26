@@ -39,7 +39,7 @@ export default function Home() {
                     <img
                         src="/Home.png"
                         alt="Panda Illustration"
-                        className="w-80 sm:w-[22rem] opacity-90 ms-4 sm:ms-16"
+                        className="w-112 sm:w-[22rem] opacity-90 ms-4 sm:ms-16"
                     />
                 </div>
             </aside>
