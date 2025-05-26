@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="py-16 bg-green-50 border-t-4 border-green-300">
+        <div className="bg-green-50 border-t-4 border-green-300">
             <div className="container m-auto px-6 text-green-900 md:px-12 xl:px-6">
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12 p-6 rounded-xl border border-green-200 shadow-md bg-white/70 backdrop-blur">
                     {/* Left Image */}
@@ -8,7 +8,7 @@ export default function About() {
                         <img
                             src="/About.png"
                             alt="Panda and Vulture"
-                            className="rounded-xl shadow-xl w-112"
+                            className="rounded-xl shadow-xl w-96"
                         />
                     </div>
 
