@@ -8,7 +8,7 @@ function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="public/Logo.png"
+                                src="/Logo.png"
                                 className="mr-3 h-16 rounded-md shadow-sm"
                                 alt="Vulture and Panda Logo"
                             />
