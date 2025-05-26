@@ -21,9 +21,9 @@ export default function Home() {
 
                         {/* Text and Donate button on the right */}
                         <div className="sm:w-7/12 text-center sm:text-right px-2 sm:px-0">
-                            <h2 className="text-5xl font-extrabold text-green-700 leading-tight">
+                            <h2 className="text-3xl sm:text-5xl font-extrabold text-green-700 leading-tight">
                                 Join the Cause
-                                <span className="block text-green-900 text-4xl mt-2">
+                                <span className="block text-green-900 text-2xl sm:text-4xl mt-2">
                                     Help Save Wildlife Today
                                 </span>
                             </h2>
