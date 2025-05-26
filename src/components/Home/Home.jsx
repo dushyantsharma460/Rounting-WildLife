@@ -6,13 +6,14 @@ export default function Home() {
         <div className="mx-3 w-full max-w-7xl">
             {/* Hero Section */}
             <aside className="relative bg-green-50 text-green-900 rounded-lg border border-green-300 overflow-hidden sm:mx-16 mx-2 sm:py-12 py-1 px-10 shadow-md min-h-[600px] sm:min-h-[650px] flex flex-col sm:flex-row items-center">
-                
-                {/* Image on the left */}
-                <div className="flex-shrink-0 ms-4 sm:ms-16 mb-6 sm:mb-0">
+
+                {/* Image container with gradient background */}
+                <div className="flex-shrink-0 ms-4 sm:ms-16 mb-6 sm:mb-0 rounded-lg p-6
+                                bg-gradient-to-r from-green-100 to-white shadow-lg">
                     <img
                         src="/Home.png"
                         alt="Panda Illustration"
-                        className="w-[16rem] sm:w-[24rem] opacity-95"
+                        className="w-[16rem] sm:w-[24rem] opacity-95 rounded-lg"
                     />
                 </div>
 
@@ -30,7 +31,7 @@ export default function Home() {
                     <div className="mt-4 sm:mt-8">
                         <Link
                             to="/donate"
-                            className="inline-flex items-center px-6 py-3 text-white font-semibold bg-green-700 rounded-lg hover:bg-green-800 transition duration-300"
+                            className="inline-flex items-center px-6 py-3 text-white font-semibold bg-green-700 rounded-lg hover:bg-green-800 transition duration-300 shadow-md"
                         >
                             <svg
                                 fill="white"
